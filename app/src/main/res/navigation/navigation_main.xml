@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/navDirectionFirstScreen">
+
+    <fragment
+        android:id="@+id/navDirectionFirstScreen"
+        android:name="com.enraher.githublist.ui.repos.ReposListFragment">
+
+        <action
+            android:id="@id/navDirectionDetailScreen"
+            app:destination="@id/navDirectionDetailScreen" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navDirectionDetailScreen"
+        android:name="com.enraher.githublist.ui.repos.RepoDetailFragment">
+
+    </fragment>
+
+
+</navigation>

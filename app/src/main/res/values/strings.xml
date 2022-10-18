@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Enrique Ramirez</string>
+    <string name="full_name">Full Name:</string>
+    <string name="forks">Forks:</string>
+    <string name="open_issues">Open Issues: </string>
+    <string name="watchers">Watchers:</string>
+
+</resources>
